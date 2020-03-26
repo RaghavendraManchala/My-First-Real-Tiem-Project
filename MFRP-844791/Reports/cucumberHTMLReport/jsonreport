@@ -1,0 +1,350 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "To Register",
+        "description": "",
+        "id": "mercury-tours-website;to-register",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12953746300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user launch the application in the browser",
+            "match": {
+              "location": "RegistrationTC_01.the_user_launch_the_application_in_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3287232800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user open the MercuryTours Registration page",
+            "match": {
+              "location": "RegistrationTC_01.the_user_open_the_MercuryTours_Registration_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1631828700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user fills all the Details",
+            "match": {
+              "location": "RegistrationTC_01.the_user_fills_all_the_Details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2132161500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click on the Register button",
+            "match": {
+              "location": "RegistrationTC_01.click_on_the_Register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1054866800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I validate the outcomes",
+            "match": {
+              "location": "RegistrationTC_01.i_validate_the_outcomes()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@TC_01"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "To Login",
+        "description": "",
+        "id": "mercury-tours-website;to-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12715015200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user launch the application",
+            "match": {
+              "location": "ValidLoginTC_02.the_user_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1551255200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user Enters the valid username password",
+            "match": {
+              "location": "ValidLoginTC_02.the_user_Enters_the_valid_username_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6013035400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on signin",
+            "match": {
+              "location": "ValidLoginTC_02.click_on_signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 896106200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I validate the outcomes of valid login",
+            "match": {
+              "location": "ValidLoginTC_02.i_validate_the_outcomes_of_valid_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@TC_02"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "To Login",
+        "description": "",
+        "id": "mercury-tours-website;to-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12777468100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user launch the application in browser",
+            "match": {
+              "location": "InvalidLoginTC_03.the_user_launch_the_application_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 564409000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user Enters the Invalid username and password",
+            "match": {
+              "location": "InvalidLoginTC_03.the_user_Enters_the_Invalid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7258988000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "click on signin button",
+            "match": {
+              "location": "InvalidLoginTC_03.click_on_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 843514500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I validate the outcomes of invalid login",
+            "match": {
+              "location": "InvalidLoginTC_03.i_validate_the_outcomes_of_invalid_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@TC_03"
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "To Retrive HomeTable",
+        "description": "",
+        "id": "mercury-tours-website;to-retrive-hometable",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12063304400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user launches the application in browser",
+            "match": {
+              "location": "HometableTC_04.user_launches_the_application_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 449238200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Read the Hometable",
+            "match": {
+              "location": "HometableTC_04.read_the_Hometable()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 785788100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "write the table in ExcelSheey",
+            "match": {
+              "location": "HometableTC_04.write_the_table_in_ExcelSheey()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 754121400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I validate the outcomes of Retrived Table",
+            "match": {
+              "location": "HometableTC_04.i_validate_the_outcomes_of_Retrived_Table()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 26,
+            "name": "@TC_04"
+          }
+        ]
+      },
+      {
+        "line": 34,
+        "name": "To Retrive any data from Cruises table",
+        "description": "",
+        "id": "mercury-tours-website;to-retrive-any-data-from-cruises-table",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11763527700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the user launches the application in browser",
+            "match": {
+              "location": "CruisesTC_05.the_user_launches_the_application_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1345704100,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "click cruises",
+            "match": {
+              "location": "CruisesTC_05.click_cruises()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 491990400,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Retrive any data from the table",
+            "match": {
+              "location": "CruisesTC_05.retrive_any_data_from_the_table()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 720680600,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I validate",
+            "match": {
+              "location": "CruisesTC_05.i_validate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 33,
+            "name": "@TC_05"
+          }
+        ]
+      }
+    ],
+    "name": "Mercury Tours Website",
+    "description": "",
+    "id": "mercury-tours-website",
+    "keyword": "Feature",
+    "uri": "src/main/resources/Feature/MercuryTours.Feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@MercuryTours"
+      }
+    ]
+  }
+]
