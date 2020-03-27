@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class LoginPage {
 	
-	
+	// To find WebElements
 	@FindBy(name="userName")
 	public WebElement email;
 	
@@ -22,18 +22,23 @@ public class LoginPage {
 	public WebElement invalid;
 	
 	public void login(String[] data){
-		email.sendKeys(data[0]);
-		pwd.sendKeys(data[1]);}
+		email.sendKeys(data[0]);	//to send EmailId
+		pwd.sendKeys(data[1]);}		//to send Password
 	
 	public void loginButon() throws InterruptedException{
 		Thread.sleep(3000);
-		login.click();}
+		login.click();				//to click Login Button
+		logoff.click();				//to click sign off Button
+		} 
+	
+	//to check Valid login
 	public String logoff() {
 		String str=logoff.getText();
 		return str;
 		
 	}
 	
+	//To check in invalid Login
 	public String invalidlogin() {
 		String str=invalid.getText();
 		return str;

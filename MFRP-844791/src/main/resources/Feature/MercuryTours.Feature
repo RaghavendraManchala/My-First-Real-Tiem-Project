@@ -10,14 +10,14 @@ Feature: Mercury Tours Website
     Then I validate the outcomes
 
 	@TC_02
-  Scenario: To Login
+  Scenario: Valid Login
     Given the user launch the application 
     When the user Enters the valid username password
     And click on signin
     Then I validate the outcomes of valid login
     
   @TC_03
-  Scenario: To Login
+  Scenario: Invalid Login
     Given the user launch the application in browser
     When the user Enters the Invalid username and password
     And click on signin button

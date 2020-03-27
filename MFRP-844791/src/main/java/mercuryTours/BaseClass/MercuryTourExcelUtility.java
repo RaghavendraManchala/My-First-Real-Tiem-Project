@@ -49,7 +49,7 @@ public class MercuryTourExcelUtility {
 			XSSFSheet sheet=wb.getSheet(sheetNo);
 			XSSFRow row= sheet.getRow(i);
 
-			XSSFCell cell=row.getCell(j);
+			XSSFCell cell=row.createCell(j);
 			FileOutputStream fos =new FileOutputStream(f);
 			cell.setCellValue(s);
 			wb.write(fos);

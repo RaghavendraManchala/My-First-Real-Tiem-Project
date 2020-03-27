@@ -5,6 +5,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 
 public class RegistrationPages {
+	
+	//to find the WebElements in the Page
 	@FindBy(xpath="/html/body/div/table/tbody/tr/td[2]/table/tbody/tr[2]/td/table/tbody/tr/td[2]/a")
 	public WebElement register;
 	
@@ -53,8 +55,10 @@ public class RegistrationPages {
 	
 	public void registerlink()
 	{
-		register.click();
+		register.click(); 						//to click on register
 		}
+	
+	//to send the details in the fields
 	public void RegisterPage(String data[]){
 		System.out.println(data[2]);
 		fName.sendKeys(data[0]);
@@ -72,10 +76,12 @@ public class RegistrationPages {
 		cpwd.sendKeys(data[10]);
 	}
 
+		//to click Submit button
 	public void submit(){
 		sub.click();
 		}
 	
+	//To get actual Result
 	public String actRes(){
 		String ar1=ar.getText();
 		return ar1;
