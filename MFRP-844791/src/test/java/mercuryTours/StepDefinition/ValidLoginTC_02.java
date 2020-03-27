@@ -22,8 +22,8 @@ public class ValidLoginTC_02 extends MercuryToursWrapperClass{
 	public void the_user_Enters_the_valid_username_password() throws Throwable {
 		 lpom=PageFactory.initElements(driver, LoginPage.class); 
 		 MercuryTourExcelUtility xl = new MercuryTourExcelUtility();
-		  
-		 
+	
+		 //To Login with 10 Test Data
 		  int j=0; 
 		  int m=32;
 		  for (int i=0;i<=9;i++) 

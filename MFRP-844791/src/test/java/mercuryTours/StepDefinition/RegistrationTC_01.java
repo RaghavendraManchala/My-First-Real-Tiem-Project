@@ -24,7 +24,7 @@ public class RegistrationTC_01 extends MercuryToursWrapperClass {
 		rpom = PageFactory.initElements(driver, RegistrationPages.class);
 		rpom.registerlink();
 		MercuryTourExcelUtility xl = new MercuryTourExcelUtility();
-
+		//Register
 		data=new String[11];
 		int j=0; 
 		for (int i=1;i<=11;i++) {
